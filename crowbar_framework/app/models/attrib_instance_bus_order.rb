@@ -30,7 +30,7 @@ class AttribInstanceBusOrder < AttribInstance
   
 
   def actual=(value)
-    # Discard since this attribute is a facade over AR objects
+    raise "This attribute is read-only"
   end
   
 
